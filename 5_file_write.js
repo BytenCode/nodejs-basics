@@ -8,6 +8,6 @@ fs.writeFile('5_temp_file_async.txt', 'Hello Byte&Code!', function (error) {
 });
 
 fs.appendFile('5_temp_append_file.txt', '\nHello Byte&Code!', function (err) {
-  if (err) throw err;
-  console.log('The \'Hello Byte&Code!\' was appended to file 5_temp_append_file.txt!');
+	if (err) throw err;
+	console.log('The \'Hello Byte&Code!\' was appended to file 5_temp_append_file.txt!');
 });

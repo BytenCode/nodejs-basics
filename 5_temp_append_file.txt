@@ -1,1 +1,16 @@
 Hello Byte&Code!
+
+2014/09/25 20:45:18 > Hello Byte&Code!
+2014/09/25 21:47:04 > Hello Byte&Code!
+2014-09-25T20:48:12.577Z > Hello Byte&Code!
+2014-09-25T20:51:27.889Z > Hello Byte&Code!
+2014-09-25T20:52:37.259Z > Hello Byte&Code!
+2014-09-25T20:55:12.058Z > 
+Hello Byte&Code!
+
+2014-09-25T20:56:06.169Z > Hello Byte&Code!
+2014-09-25T20:56:26.952Z > Hello Byte&Code!
+2014-09-25T20:56:45.562Z > Hello Byte&Code!
+2014-09-25T20:56:46.945Z > Hello Byte&Code!
+2014-09-25T20:56:47.736Z > Hello Byte&Code!
+2014-09-25T20:56:48.432Z > Hello Byte&Code!

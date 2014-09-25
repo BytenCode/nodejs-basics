@@ -23,10 +23,8 @@ var serverFile = http.createServer(function (req, res) {
 serverFile.listen(9999);
 
 var staticSite = http.createServer(function(req, res) { 
-	var filename = req.url == '/' ? 'bytencode.html' : req.url.substring(1); // remove first char
-	
+	var filename = req.url == '/' ? 'bytencode.html' : req.url.substring(1); 
 	console.log("File Request: " + filename);
-
 	fs.readFile(filename, "binary", function(error, fileContent) {
 		if(error) {        
 			res.writeHead(404, {"Content-Type": "text/plain"});			

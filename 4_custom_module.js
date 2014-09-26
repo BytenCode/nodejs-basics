@@ -1,4 +1,4 @@
-var util = require('util')
+var util = require('util');
 
 module.exports = {
 
@@ -11,7 +11,7 @@ module.exports = {
             case ":": result = number1 / number2; break;
             default:
                 console.log("Invalid operator!");
-                process.exit();     
+                return 0;    
         }
         return result;
     },

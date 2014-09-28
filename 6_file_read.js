@@ -1,9 +1,10 @@
 var fs = require('fs');
 
-var fileContent = fs.readFileSync('5_temp_file_sync.txt', 'utf8');
-console.log(fileContent);
-
-fs.readFile('5_temp_file_async.txt', 'utf8', function (err, content) {
+fs.readFile('file_async.txt', function (err, content) {
   	if (err) throw err;
-  	console.log(content);
+  	console.log('File Content [file_async.txt]:\n' + content + '\n');
 });
+
+var fileContent = fs.readFileSync('file_sync.txt');
+console.log('File Content [file_sync.txt]:\n' + fileContent + '\n');
+

@@ -11,7 +11,7 @@ module.exports = {
             case ":": result = number1 / number2; break;
             default:
                 console.log("Invalid operator!");
-                return 0;    
+                result = 0;    
         }
         return result;
     },
@@ -20,5 +20,4 @@ module.exports = {
         //console.log( number1 + ' ' + operator + ' ' + number2 + ' = ' + result );
         console.log(util.format('%d %s %d = %d', number1, operator, number2, result));
     }
-
 }

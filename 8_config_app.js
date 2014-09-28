@@ -1,4 +1,4 @@
-var appConfig = require('./7_config_file');
+var appConfig = require('./config_file.js');
 
 console.log("config.host: " + appConfig.host);
 console.log("config.port: " + appConfig.port);

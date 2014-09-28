@@ -1,5 +1,4 @@
-// import custom module
-var mymodule = require("./4_custom_module.js");
+var mymodule = require("./number_operation_md.js");
 
 if(process.argv.length != 5) {
 	console.log("Invalid number of parameters!");

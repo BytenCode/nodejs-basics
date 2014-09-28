@@ -1,6 +1,6 @@
 
-console.log('\nNumber of parameters: ' + process.argv.length + '\n');
+console.log('\nNumber of arguments: ' + process.argv.length + '\n');
 
 process.argv.forEach(function(value, index) {
-	console.log('Parameter [' + index + ']: ' + value);
+	console.log('Argument [' + index + ']: ' + value);
 });

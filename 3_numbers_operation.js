@@ -1,7 +1,7 @@
 
 if(process.argv.length != 5) {
 	console.log("Invalid number of parameters!");
-	process.exit();
+	process.exit(1);
 }
 
 var num1 = parseInt(process.argv[2]);
